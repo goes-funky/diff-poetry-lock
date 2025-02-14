@@ -4,6 +4,7 @@ version = "1.0.0"
 description = "A Github Action that posts a summary of all changes within the poetry.lock file to a pull request"
 authors = ["Nils Borrmann"]
 readme = "README.md"
+package-mode = false
 
 [tool.poetry.dependencies]
 python = "^3.10"
